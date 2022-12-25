@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cardtext{
+  padding: 15px;
+  font-size: 12px;
+}
+.cardtext1{
+  font-weight: 700;
+  font-size: 15px;
+}
+a{
+  margin: 50px;
+  border-radius: 10px;
+  width: 15%;
+  height: 20%;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-decoration: none;
+}
+.mainflags{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.cardimage{
+  width: 100%;
+  height: 175px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.navbartitle{
+  font-size: 24px;
+}
+.navbardarkmode{
+  width: 114px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+.searchfilter{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.search{
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+.search input{
+  border: none;
+  margin: 10px;
+  width: 400px;
+}
+.search input:focus{
+  outline: none;
+}
+.search i{
+  border: none;
+  margin: 10px;
+}
+.dark{
+  color: white;
+  background-color: #202c37;
+}
+#btn{
+  border: none;
+}
