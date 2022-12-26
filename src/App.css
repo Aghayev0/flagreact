@@ -32,19 +32,23 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.cardtext{
+
+.cardtext {
   padding: 15px;
   font-size: 12px;
 }
-.cardtext1{
+
+.cardtext1 {
   font-weight: 700;
   font-size: 15px;
 }
-a{
+
+a {
   margin: 50px;
   border-radius: 10px;
   width: 15%;
@@ -53,27 +57,32 @@ a{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   text-decoration: none;
 }
-.mainflags{
+
+.mainflags {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   flex-direction: row;
 }
-.cardimage{
+
+.cardimage {
   width: 100%;
   height: 175px;
   border-radius: 10px;
   border: 1px solid grey;
 }
-.navbar{
+
+.navbar {
   display: flex;
   justify-content: space-between;
   margin: 50px;
 }
-.navbartitle{
+
+.navbartitle {
   font-size: 24px;
 }
-.navbardarkmode{
+
+.navbardarkmode {
   width: 114px;
   display: flex;
   justify-content: space-between;
@@ -81,31 +90,57 @@ a{
   font-size: 18px;
   cursor: pointer;
 }
-.searchfilter{
+
+.searchfilter {
   display: flex;
   justify-content: space-between;
   margin: 50px;
 }
-.search{
+
+.search {
   border: 1px solid grey;
   border-radius: 20px;
 }
-.search input{
+
+.search input {
   border: none;
   margin: 10px;
   width: 400px;
 }
-.search input:focus{
+
+.search input:focus {
   outline: none;
 }
-.search i{
+
+.search i {
   border: none;
   margin: 10px;
 }
-.dark{
+
+.dark {
   color: white;
   background-color: #202c37;
 }
-#btn{
+
+#btn {
   border: none;
+}
+
+.cardinfo {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.img{
+  width: 60%;
+}
+.img img{
+  width: 100%;
+}
+.cardinfotext{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+font-size: 20px;
 }

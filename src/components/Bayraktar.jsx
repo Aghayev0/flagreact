@@ -23,15 +23,24 @@ function Flags() {
                 alignItems: "center",
                 justifyContent: "center",
                 height: "100vh",
-            }}>Loading the data {console.log("loading state")}</div>
+            }}><div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div></div>
         );
     }
-    return (<>
-        <p>{flags[0].area}</p>
-        <p>{flags[0].name.common}</p>
-        <p>{flags[0].capital}</p>
-        <p>{flags[0].region}</p>
-    </>
+    return (
+        <div className='cardinfo'>
+            <div className='img'>
+                <img src={flags[0].flags.png}></img>
+            </div>
+            <div className='cardinfotext'>
+                <p>Native Name: {flags[0].name.official}</p>
+                <p>Population: {flags[0].population}</p>
+                <p>Region: {flags[0].region}</p>
+                <p>Sub Region: {flags[0].subregion}</p>
+                <p>Capital: {flags[0].capital}</p>
+            </div>
+        </div>
     );
 }
 
